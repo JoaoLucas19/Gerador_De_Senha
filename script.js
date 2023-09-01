@@ -24,7 +24,7 @@ passwordLengthEl.addEventListener("input", function () {
     generatePassword();
 });
 
-const copyButtonEl = document.querySelector("#copyPassword")
-copyButtonEl.addEventListener("click", copyPassword);
+document.querySelector("#copy-1").addEventListener("click", copyPassword);
+document.querySelector("#copy-2").addEventListener("click", copyPassword);
 
 generatePassword()
